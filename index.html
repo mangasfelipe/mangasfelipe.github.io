@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <title>Lorem - Seja bem-vindo</title>
+    <link rel="shortcut icon" href="img/lorem.png">
+    
+  </head>
+  <body>
+    <header><!--Início do cabeçalho. Já feito!-->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-lorem">
+        <div class="container"><!--container onde está o menu principal do topo-->
+          <a href="index.html" class="nav-brand ml-4"><!--área da logo.-->
+            <img src="img/lorem.png" width="60px">
+          </a>
+
+          <button class="navbar-toggler mr-4" data-toggle="collapse" data-target="#nav-principal"><!--Botão do menu responsivo-->
+            <i class="fas fa-ellipsis-h fa-lg"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav-principal"><!--Itens do menu na barra de navegação principal-->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link mx-2 text-center">Início</a>
+              </li>
+              <li class="nav-item">
+                <a href="#servicos" class="nav-link mx-2 text-center">Quem somos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contato" class="nav-link mx-2 text-center">Contato</a>
+              </li>
+            </ul>
+          </div>
+
+        </div><!--fim da div do container onde está o menu principal-->
+      </nav>
+    </header><!--Fim do cabeçalho, já feito também-->
+
+    <div id="home" class="d-flex"><!--Início do primeiro conteudo da capa-->
+      <div class="container align-self-center">
+        <div class="row">
+          <div class="col-md-12 centro">
+            <h1>Sites responsivos</h1>
+            <a href="#" class="btn btn-lg btn-lorem1">Começar</a>
+            <a href="#" class="btn btn-lg btn-lorem2">Chamada para ação</a>
+          </div>
+        </div>
+      </div>
+    </div><!--fim da capa. aqui depois vou colocar um carousel-->
+   <section id="servicos" class="bg-servicos"><!--Área de serviços-->
+     <div class="container">
+       <div class="row">
+
+          <div class="col-md-3 pt-2 centro bg-itens-servicos">
+            <img src="img/responsivo.svg"class="img-fluid mb-4">
+            <h3>Design responsivo</h3>
+            <p>Fazemos o seu site de maneira responsiva. Seu site merece ser exibido em qualquer dispositivo, a qualquer hora, em qualquer lugar!</p>
+          </div>
+
+          <div class="col-md-1"></div>
+
+          <div class="col-md-3 pt-2 centro bg-itens-servicos">
+            <img src="img/SEO.png"class="img-fluid mb-4">
+            <h3>Estratégias SEO</h3>
+            <p>Quem não é visto, não é lembrado. Nossos designs são todos pensados de maneira a fazer você se posicionar da melhor maneira possível nos atuais veículos de busca.</p>
+          </div>
+
+          <div class="col-md-1"></div>
+
+          <div class="col-md-3 pt-2 centro bg-itens-servicos">
+            <img src="img/suportive.png"class="img-fluid mb-4">
+            <h3>Suporte 24 horas.</h3>
+            <p>Pensou em outra coisa para o seu projeto? Pintou uma dúvida? Não gostou de algo? Estamos sempre à disposição para atender suas dúvidas.</p>
+          </div>
+       </div>
+     </div>
+   </section><!--Fim da área de serviços-->
+
+   <div id="contato" class="d-flex">
+    <section class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="display-4 self-align-center mt-4">Vamos conversar sobre seu próximo projeto?</h1>
+          <div class="form-group"><!--Início do formulário========================================-->
+
+            <label for="usuario" class="mt-2">Usuário</label>
+            <input class="form-control" type="text" id="usuario" placeholder="Digite seu usuário">
+        
+            <label for="email" class="mt-2">Email</label>
+            <input class="form-control" type="email" id="email" placeholder="Digite seu email">
+
+            <label for="mensagem" class="mt-2">Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="3" placeholder="Escreva sua mensagem aqui."></textarea>
+
+            <button class="btn btn-outline-light btn-block mt-4">Enviar</button>
+        </div><!--FIM DO FORMULÁRIO ============================================================-->
+
+         </div>
+         <div class="col-md-6">
+           <img src="img/business.jpg" style="opacity: 50%;" class="img-fluid my-4" id="img-business">
+         </div>
+      </div>
+    </section>
+   </div>
+
+
+
+   <footer class="mt-4 bg-servicos d-flex centro">
+     <div class="container">
+       <a href="index.html" style="display: block;" >
+         <img src="img/lorem.png" class="mb-4" width="60px">
+       </a>
+       <div id="sociais" class="mb-3" style="display: block;">
+
+          <a href="">
+            <i class="fab fa-facebook-square fa-2x mx-3"></i>
+          </a>
+          
+          <a href="">
+            <i class="fab fa-instagram fa-2x mx-3"></i>
+          </a>
+          
+          <a href="">
+            <i class="fab fa-youtube fa-2x mx-3"></i>
+          </a>
+        
+       </div>
+       <p>Desenvolvido por <a href="https://www.facebook.com/mangas.felipe" target="_blank">Felipe Seixas Mangas</a></p>
+       <p>&copy;2020</p>
+
+     </div>
+     </p>   
+  </footer>
+    
+    
+    
+
+      
+      
+    
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
